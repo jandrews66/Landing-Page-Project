@@ -62,3 +62,74 @@ h2 {
     border-radius: 20px;
 
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+    background-color: #E5E7EB;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+h4 {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.signup-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 10px;
+    
+}
+
+.signup-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.signup-content > * {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
+
+.signup-content h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.signup-button {
+    display: flex;
+    align-self: flex-end;
+}
+
+button {
+    color: white;
+    background-color: rgba(0,0,0,0);
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    padding: 5px 20px;
+
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
