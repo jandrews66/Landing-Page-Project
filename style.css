@@ -1,5 +1,5 @@
-.body {
-    font-family: Roboto, Helvetica, sans-serif
+body {
+    font-family: 'Roboto', Arial;
 }
 .logo {
     height: 100px;
@@ -22,13 +22,21 @@ ul {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 30px 100px;
+    padding: 50px 100px;
     color: white;
 }
 
+h1 {
+    font-size: 46px;
+}
 
 .signup-text {
     width: 500px;
+}
+
+.signup-text p, li {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 .beerpour {
     width: 400px;
@@ -38,9 +46,18 @@ h2 {
     display: flex;
     justify-content: center;
     color: #1F2937;
+    padding: 30px;
+    font-size: 36px;
+    font-weight: bolder;
     
 }
-
+.info-container {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
 .content {
     display: flex;
     justify-content: center;
@@ -115,7 +132,7 @@ h4 {
     align-self: flex-end;
 }
 
-button {
+.button {
     color: white;
     background-color: rgba(0,0,0,0);
     border-radius: 5px;
@@ -123,6 +140,11 @@ button {
     border-style: solid;
     padding: 5px 20px;
 
+}
+
+.signup-text .button {
+    background-color: #3882F6;
+    border-color: #3882F6;
 }
 
 .footer {
@@ -133,3 +155,4 @@ button {
     align-items: center;
     height: 100px;
 }
+
